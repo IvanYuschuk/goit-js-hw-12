@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "description": "Цей проект було створено за допомогою Vite. Для знайомства та налаштування додаткових можливостей [звернись до документації](https://vitejs.dev/).",
-  "homepage": "https://github.com/IvanYuschuk/goit-js-hw-11#readme",
+  "homepage": "https://github.com/IvanYuschuk/goit-js-hw-12#readme",
   "bugs": {
-    "url": "https://github.com/IvanYuschuk/goit-js-hw-11/issues"
+    "url": "https://github.com/IvanYuschuk/goit-js-hw-12/issues"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,7 @@
   "main": "vite.config.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/goit-js-hw-11/",
+    "build": "vite build --base=/goit-js-hw-12/",
     "preview": "vite preview"
   },
   "dependencies": {
