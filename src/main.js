@@ -63,6 +63,12 @@ loadButton.addEventListener("click", (e) => {
     })
     .finally(() => {
         hideLoader();
+        const card = document.querySelector(".gallery-item");
+        const cardHeight = card.getBoundingClientRect().height;
+        window.scrollBy({
+            top: cardHeight * 3.6,
+            behavior: "smooth",  
+        });
     });
 });
 
