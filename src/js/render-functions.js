@@ -64,3 +64,13 @@ export function hideLoader() {
     const loader = document.querySelector('.js-loader');
     loader.classList.remove("loader");
 }
+
+export function showLoadButton() {
+    const LoadButton = document.querySelector(".load-button");
+    LoadButton.style = "display: block";
+}
+
+export function hideLoadButton() {
+    const LoadButton = document.querySelector(".load-button");
+    LoadButton.style = "display: none";
+}

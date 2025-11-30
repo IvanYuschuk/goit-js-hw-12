@@ -51,3 +51,27 @@
     background-color: #6c8cff;
 
 }
+
+.load-button {
+    display: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background-color: #4E75FF;
+    border: 1px solid #4E75FF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    transition: border-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.load-button:hover,
+.load-button:focus {
+    border-color: #6c8cff;
+    background-color: #6c8cff;
+
+}
